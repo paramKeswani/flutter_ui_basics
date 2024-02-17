@@ -1,0 +1,45 @@
+Flutter device daemon #1 exited (exit code 255), stderr: \flutter\bin\cache was unexpected at this time.
+
+C:\Users\Lenovo\Downloads\flutter_windows_3.16.9-stable (1)\flutter\bin
+
+D:\src\flutter\bin
+
+Any UI component on the screen is called a Widget in flutter.
+
+State is simply the information of a StatefulWidget. Every StatefulWidget has a State Object. This State Object keeps a track of the variables and functions that we define inside a StatefulWidget.
+
+StatefulWidget: A Widget that can change dynamically. Generally used when we want to modify something on the screen's UI.
+
+
+stseful widgets itself is immutable so we use state object to modify ui
+
+We tell this State Object to update our screen's UI using a function called setState()
+
+We tell this State Object to update our screen's UI using a function called setState().
+
+void setState(VoidCallback fn) {
+  ...
+}
+
+
+We can update our variables first and then call the setState() function, since setState just informs the underlying framework that
+
+When to use setState() ?
+When we want to change the UI of the screen.
+
+
+
+We don't need to call setState every time we change a variable. We call setState only when we want the change in a variable to reflect on the UI of the screen
+
+
+
+
+stateless widgets cannot change while stateful widgets change ovretime
+
+stateless widgets 
+:Icon, IconButton, and Text.
+
+
+ Stateful widgets include checkboxes, radio buttons, sliders, form inputs, etc.
+
+for spacing sized box is used  
